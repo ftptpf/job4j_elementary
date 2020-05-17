@@ -12,6 +12,11 @@ public class ArrayDefinition {
         names[2] = "Григорий";
         names[3] = "Николай";
 
+        for (int index = 0; index < names.length; index++) {
+            System.out.println(names[index]);
+        }
+        System.out.println();
+
         System.out.println(names[0]);
         System.out.println(names[1]);
         System.out.println(names[2]);
