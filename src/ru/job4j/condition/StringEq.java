@@ -7,7 +7,6 @@ public class StringEq {
         boolean access = root.equals(login);
         return access;
     }
-
     public static void main(String[] args) {
         String your = "admin";
         boolean userHasAccess = StringEq.check(your);

@@ -16,7 +16,6 @@ public class Converter {
         float rls = value / 70;
         return rls;
     }
-
     /**
      * Метод конвертации рублей в доллары
      * @param value значение в рублях
@@ -26,7 +25,6 @@ public class Converter {
         float rls = value / 60;
         return  rls;
     }
-
     /**
      * Главный метод класса
      * @param args - args массив строковых параметров метода
