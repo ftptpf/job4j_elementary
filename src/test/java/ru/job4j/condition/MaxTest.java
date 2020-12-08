@@ -9,7 +9,7 @@ public class MaxTest {
     @Test
     //проверка вывода максимального значения
     public void whenMax1ToMax2() {
-        int result = Max.max(2,1);
+        int result = Max.max(2, 1);
         assertThat(result, is(2));
     }
     @Test

@@ -35,7 +35,7 @@ public class MultiMaxTest {
     //проверка что все значения равны
     public void whenAllIsEqual() {
         MultiMax check = new MultiMax();
-        int x =1, y = 1, z = 1;
+        int x = 1, y = 1, z = 1;
         boolean result = check.max(x, y, z) == x && y == z;
         assertTrue(result);
     }

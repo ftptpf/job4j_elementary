@@ -9,19 +9,19 @@ public class ThreeMaxTest {
     @Test
     //максимальне первое значение
     public void firstMax() {
-        int rls = ThreeMax.max(10,5,1);
+        int rls = ThreeMax.max(10, 5, 1);
         assertThat(rls, is(10));
     }
     @Test
     //максимальне второе значение
     public void secondMax() {
-        int rls = ThreeMax.max(10,50,1);
+        int rls = ThreeMax.max(10, 50, 1);
         assertThat(rls, is(50));
     }
     @Test
     //максимальне третье значение
     public void thirdMax() {
-        int rls = ThreeMax.max(10,5,100);
+        int rls = ThreeMax.max(10, 5, 100);
         assertThat(rls, is(100));
     }
     @Test
