@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-import org.hamcrest.generator.qdox.tools.QDoxTester;
+//import org.hamcrest.generator.qdox.tools.QDoxTester;
 
 public class Defragment {
     public static String[] compress(String[] array) {
